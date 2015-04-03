@@ -1,0 +1,23 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        /:categories/:title.html
+
+# Setup
+title:            Blog
+description:      'Barış Arıburnu | Blog<br/> sudo apt-get install barisariburnu <br/> Ubuntu | Django | Python'
+url:              http://barisariburnu.github.io/blog
+
+author:
+  name:           'Barış Arıburnu'
+  url:            http://barisariburnu.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/barisariburnu/barisariburnu.github.io
