@@ -1,7 +1,5 @@
 # Baris Ariburnu - Portfolio
 
-[![Open is Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://barisariburnu.github.io)
-
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on GitHub Pages at barisariburnu.github.io.
 
 ## Features Roadmap
