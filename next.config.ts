@@ -14,7 +14,7 @@ const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
   distDir: "out",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/portfolio" : "",
+  assetPrefix: "",
 };
 
 export default nextConfig;
