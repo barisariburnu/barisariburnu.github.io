@@ -13,6 +13,8 @@ interface GithubPageProps {
 }
 
 const GithubPage = ({ repos, user }: GithubPageProps) => {
+  const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'barisariburnu';
+
   return (
     <div className={styles.layout}>
       <div className={styles.pageHeading}>
@@ -61,7 +63,7 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
         </div>
         <div className={styles.contributions}>
           <GitHubCalendar
-            username={process.env.NEXT_PUBLIC_GITHUB_USERNAME!}
+            username={username}
             hideColorLegend
             hideMonthLabels
             colorScheme="dark"
@@ -80,13 +82,15 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
 };
 
 export async function getStaticProps() {
+  const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'barisariburnu';
+
   const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`
+    `https://api.github.com/users/${username}`
   );
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?sort=pushed&per_page=6`
+    `https://api.github.com/users/${username}/repos?sort=pushed&per_page=6`
   );
   const repos = await repoRes.json();
 
