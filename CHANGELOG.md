@@ -14,5 +14,7 @@
 - `bun install --frozen-lockfile` başarıyla tamamlandı.
 - `bun run build` başarıyla tamamlandı; statik export 9 sayfayı üretti.
 - `out/app-ads.txt` dosyasının doğru yayıncı kaydını içerdiği doğrulandı.
-- Push sonrasında `https://barisariburnu.com.tr/app-ads.txt` HTTP durumu ayrıca
-  doğrulanacak.
+- Push ve GitHub Pages dağıtımı sonrasında
+  `https://barisariburnu.com.tr/app-ads.txt` adresinin `200 OK`,
+  `text/plain; charset=utf-8` ve doğru AdMob yayıncı kaydıyla yanıt verdiği
+  doğrulandı.
