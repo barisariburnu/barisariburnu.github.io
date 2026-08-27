@@ -7,6 +7,8 @@
 - KUVVET Google Play yayını için İngilizce gizlilik politikası, hizmet şartları,
   ödeme yardımı, hesap silme ve AGPL kaynak teklifi sayfaları eklendi.
 - Yasal sayfalar için mobil uyumlu ortak stil eklendi.
+- Next.js yapılandırması GitHub Pages aracının tanıdığı JavaScript biçimine geçirildi; KUVVET'in
+  uygulama içi yasal bağlantılarıyla aynı olan sonu `/` ile biten URL'ler kalıcı hâle getirildi.
 
 ### Doğrulama
 
