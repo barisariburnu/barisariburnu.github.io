@@ -9,6 +9,8 @@
 - Yasal sayfalar için mobil uyumlu ortak stil eklendi.
 - Next.js yapılandırması GitHub Pages aracının tanıdığı JavaScript biçimine geçirildi; KUVVET'in
   uygulama içi yasal bağlantılarıyla aynı olan sonu `/` ile biten URL'ler kalıcı hâle getirildi.
+- Uzun KUVVET yasal sayfalarının editör alanında dikey ortalanarak üst bölümünün kırpılması
+  engellendi; sayfalar artık en üstten başlıyor ve tamamı kaydırılabiliyor.
 
 ### Doğrulama
 
