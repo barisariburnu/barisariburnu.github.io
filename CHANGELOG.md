@@ -1,5 +1,17 @@
 # Değişiklik Günlüğü
 
+## [2026-08-27]
+
+### Eklendi
+
+- KUVVET Google Play yayını için İngilizce gizlilik politikası, hizmet şartları,
+  ödeme yardımı, hesap silme ve AGPL kaynak teklifi sayfaları eklendi.
+- Yasal sayfalar için mobil uyumlu ortak stil eklendi.
+
+### Doğrulama
+
+- Production statik export ile tüm yeni sayfaların üretildiği doğrulandı.
+
 ## [2026-08-11]
 
 ### Eklendi
