@@ -50,8 +50,27 @@ jobs:
         run: bun run build
         env:
           NEXT_PUBLIC_GITHUB_USERNAME: ${{ vars.NEXT_PUBLIC_GITHUB_USERNAME }}
+      - name: Add licensed KUVVET exercise media
+        shell: bash
+        run: |
+          set -euo pipefail
+          revision=7455efae41b330c265e7cd4b78dfa848e7ce5ebd
+          archive="$RUNNER_TEMP/kuvvet-media.tar.gz"
+          extracted="$RUNNER_TEMP/kuvvet-media"
+          destination="$GITHUB_WORKSPACE/out/projects/kuvvet-app"
+          curl --fail --location --silent --show-error \
+            "https://codeload.github.com/hasaneyldrm/exercises-dataset/tar.gz/$revision" \
+            --output "$archive"
+          mkdir -p "$extracted" "$destination/jpg" "$destination/gif"
+          tar -xzf "$archive" --strip-components=1 -C "$extracted"
+          cp "$extracted"/images/*.jpg "$destination/jpg/"
+          cp "$extracted"/videos/*.gif "$destination/gif/"
+          test "$(find "$destination/jpg" -type f -name '*.jpg' | wc -l)" -eq 1324
+          test "$(find "$destination/gif" -type f -name '*.gif' | wc -l)" -eq 1324
+          file "$destination/jpg/0025-EIeI8Vf.jpg" | grep -q 'JPEG image data'
+          file "$destination/gif/0025-EIeI8Vf.gif" | grep -q 'GIF image data'
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
 

@@ -1,5 +1,19 @@
 # Değişiklik Günlüğü
 
+## [2026-08-28]
+
+### Eklendi
+
+- GitHub Pages dağıtımı, KUVVET'in openGym tarafından kullanılan sabit medya revizyonundaki
+  1.324 JPG ve 1.324 GIF'i build sırasında indirip
+  `/projects/kuvvet-app/jpg/` ve `/projects/kuvvet-app/gif/` altında yayımlayacak biçimde
+  genişletildi. Lisanslı ham medya Git deposunun geçmişine eklenmedi.
+
+### Doğrulama
+
+- Workflow, dağıtımdan önce her klasörde tam 1.324 dosya bulunduğunu ve örnek bench-press
+  dosyalarının gerçek JPEG/GIF olduğunu doğrular.
+
 ## [2026-08-27]
 
 ### Eklendi
