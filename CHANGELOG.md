@@ -1,5 +1,21 @@
 # Değişiklik Günlüğü
 
+## [2026-08-31]
+
+### Değiştirildi
+
+- KUVVET gizlilik politikası ve hizmet şartları, 1.1 sürümündeki yalnızca uygun ücretsiz
+  yüzeylerde gösterilen onay kontrollü Google Mobile Ads banner'ları, UMP gizlilik seçimleri,
+  reklamsız Pro, isteğe bağlı yönetilen bulut ve cihazda hesaplanan gelişmiş içgörülerle uyumlu
+  hale getirildi.
+- Satın alma belirtecinin doğrulama hizmetinde tek yönlü sahiplik özetinin yanında kimliği
+  doğrulanmış şifrelemeyle saklandığı ve hesap silmede kaldırıldığı açıklandı.
+
+### Doğrulama
+
+- Tüm KUVVET yasal sayfalarının statik export çıktısında üretildiği production build ile
+  doğrulanacaktır.
+
 ## [2026-08-28]
 
 ### Eklendi

@@ -16,8 +16,8 @@ const AccountDeletionPage = () => (
       </ol>
       <p>
         This removes the profile, passkey credentials, synced workout state, push subscription,
-        stored entitlement and purchase-token hash. Local data on other disconnected devices must
-        be erased separately.
+        stored entitlement, encrypted purchase reference and purchase-token ownership hash. Local
+        data on other disconnected devices must be erased separately.
       </p>
     </section>
 

@@ -5,7 +5,7 @@ const TermsPage = () => (
   <article className={styles.container}>
     <div className={styles.eyebrow}>KUVVET</div>
     <h1 className={styles.title}>Terms of Service</h1>
-    <p className={styles.updated}>Effective: 27 August 2026</p>
+    <p className={styles.updated}>Effective: 31 August 2026</p>
 
     <section className={styles.section}>
       <h2>The service</h2>
@@ -19,8 +19,10 @@ const TermsPage = () => (
       <h2>Free and Pro features</h2>
       <p>
         Local planning, workout logging, history, body-weight tracking, import and export remain
-        available without a subscription. KUVVET Pro covers optional managed services such as
-        cloud backup, cross-device synchronization and service-backed analytics.
+        available without a subscription. The free tier may show a restrained banner on Library,
+        Plan, and Stats when privacy settings allow it; training and account-management flows remain
+        ad-free. KUVVET Pro removes ads and covers available managed cloud backup, cross-device
+        synchronization, and advanced trends derived from your own completed training history.
       </p>
     </section>
 
@@ -32,6 +34,7 @@ const TermsPage = () => (
         <li>Cancellation stops future renewal; access may continue until the paid-through date.</li>
         <li>Deleting a KUVVET account does not automatically cancel a Google Play subscription.</li>
         <li>Purchase verification may be delayed while Google Play or the network is unavailable; pending purchases do not grant Pro access.</li>
+        <li>Restore checks an existing Google Play purchase and does not create a new charge.</li>
       </ul>
     </section>
 
