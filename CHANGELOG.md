@@ -10,11 +10,14 @@
   hale getirildi.
 - Satın alma belirtecinin doğrulama hizmetinde tek yönlü sahiplik özetinin yanında kimliği
   doğrulanmış şifrelemeyle saklandığı ve hesap silmede kaldırıldığı açıklandı.
+- KUVVET 1.1.0 için `52623fa` commit'inden üretilen karşılık gelen kaynak arşivi, source/AAB
+  SHA-256 kayıtları ve güncel AGPL kaynak teklifi yayıma hazırlandı.
 
 ### Doğrulama
 
 - Tüm KUVVET yasal sayfalarının statik export çıktısında üretildiği production build ile
   doğrulanacaktır.
+- Kaynak arşivinin checksum'u ve statik export içindeki indirme dosyaları doğrulanacaktır.
 
 ## [2026-08-28]
 

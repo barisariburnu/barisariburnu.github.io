@@ -1,0 +1,2 @@
+c7a471f9b2caf1ca71332d859f23ebbf58ffc305753f422d7b5709ba24d42e98  kuvvet-1.1.0-source.tar.gz
+34d5ef94efd34b71bc00a4403e9e9851c5bae9759ebd831b2d7368400ffd4c9c  kuvvet-1.1.0.aab

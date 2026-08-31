@@ -15,6 +15,10 @@ const SourcePage = () => (
       </p>
       <ul>
         <li>
+          KUVVET 1.1.0 — <a href="/projects/kuvvet-app/source/kuvvet-1.1.0-source.tar.gz">source archive</a>{" "}
+          · <a href="/projects/kuvvet-app/source/kuvvet-1.1.0-checksums.txt">checksums</a>
+        </li>
+        <li>
           KUVVET 1.0.0 — <a href="/projects/kuvvet-app/source/kuvvet-1.0.0-source.tar.gz">source archive</a>{" "}
           · <a href="/projects/kuvvet-app/source/kuvvet-1.0.0-checksums.txt">checksums</a>
         </li>
@@ -25,11 +29,11 @@ const SourcePage = () => (
         Signing keys, credentials, generated build output and Git history are intentionally excluded.
       </p>
       <p>
-        Private release commit: <code>637df93</code>
+        Private release commit: <code>52623fa</code>
         <br />
-        Source SHA-256: <code>4f9aa80c60ea855e41dead277ec1012ff7778cf995a406ce0609b90a242a0956</code>
+        Source SHA-256: <code>c7a471f9b2caf1ca71332d859f23ebbf58ffc305753f422d7b5709ba24d42e98</code>
         <br />
-        AAB SHA-256: <code>d0025663505990c8dc2ca1a8d6d9d4ad902693fe86d187cbc8c5409fac3f5dc4</code>
+        AAB SHA-256: <code>34d5ef94efd34b71bc00a4403e9e9851c5bae9759ebd831b2d7368400ffd4c9c</code>
       </p>
     </section>
 
