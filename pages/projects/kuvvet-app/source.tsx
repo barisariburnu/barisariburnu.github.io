@@ -33,7 +33,7 @@ const SourcePage = () => (
         <br />
         Source SHA-256: <code>c7a471f9b2caf1ca71332d859f23ebbf58ffc305753f422d7b5709ba24d42e98</code>
         <br />
-        AAB SHA-256: <code>34d5ef94efd34b71bc00a4403e9e9851c5bae9759ebd831b2d7368400ffd4c9c</code>
+        AAB SHA-256: <code>b733a496374f9f742604901cc286b5d90a583d595ff2310be7e9257ff6ababf9</code>
       </p>
     </section>
 
